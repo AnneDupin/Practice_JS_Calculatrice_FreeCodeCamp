@@ -1,0 +1,197 @@
+body {
+    background-color: #7400b8;
+    animation: colorchange 20s;
+    animation-iteration-count: 300;
+    -webkit-animation: colorchange 20s;
+    -webkit-animation-iteration-count: 300;
+}
+
+/* colorchange = nom de l'animation */
+/* Webkit pour Chrome et Safari sinon ça marche pas */
+
+@keyframes colorchange {
+
+    0% {
+        background: #6930c3;
+    }
+
+    25% {
+        background: #5e60ce;
+    }
+
+    50% {
+        background: #4ea8de;
+    }
+
+    75% {
+        background: #56cfe1;
+    }
+
+    100% {
+        background: #72efdd;
+    }
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        background: frenchviolet;
+    }
+
+    25% {
+        background: slateblue;
+    }
+
+    50% {
+        background: bluejeans;
+    }
+
+    75% {
+        background: skyblue;
+    }
+
+    100% {
+        background: turquoise;
+    }
+}
+
+#superconteneur {
+    border-radius: 25px;
+    margin: 0 auto;
+    height: 500px;
+    width: 600px;
+    /* background: salmon; */
+}
+
+#conteneur {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+input:hover {
+    background-color: #e5e5e5;
+    transition: background 0.3s;
+}
+
+#output {
+    margin: 0 auto;
+    width: 400px;
+    background: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    border-radius: 25px;
+}
+
+/* Changer la taille des INPUT */
+
+input[value="AC"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="CE"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="%"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="/"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="7"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="8"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="9"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="*"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="4"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="5"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="6"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="-"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="1"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="2"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="3"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="+"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="0"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="1"] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="."] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[value="="] {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
